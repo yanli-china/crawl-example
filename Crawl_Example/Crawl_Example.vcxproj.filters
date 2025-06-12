@@ -18,5 +18,8 @@
     <ClCompile Include="extract_link.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="get_json.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
