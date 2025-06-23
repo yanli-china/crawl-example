@@ -24,5 +24,8 @@
     <ClCompile Include="set_background.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="net_crawler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

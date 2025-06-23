@@ -1,2 +1,6 @@
-﻿  set_background.cpp
+﻿  net_crawler.cpp
+C:\Users\1000260871\Desktop\Crawl_Example\Crawl_Example\net_crawler.cpp(85,62): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\1000260871\Desktop\Crawl_Example\Crawl_Example\net_crawler.cpp(219,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\1000260871\Desktop\Crawl_Example\Crawl_Example\net_crawler.cpp(234,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\1000260871\Desktop\Crawl_Example\Crawl_Example\net_crawler.cpp(275,6): warning C4326: return type of 'main' should be 'int' instead of 'void'
   Crawl_Example.vcxproj -> C:\Users\1000260871\Desktop\Crawl_Example\x64\Debug\Crawl_Example.exe
