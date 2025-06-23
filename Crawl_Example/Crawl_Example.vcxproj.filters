@@ -21,5 +21,8 @@
     <ClCompile Include="get_json.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="set_background.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
