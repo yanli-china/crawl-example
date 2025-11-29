@@ -21,11 +21,31 @@
     <ClCompile Include="get_json.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="set_background.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="net_crawler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="win_mouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win_set_background.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="anova.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mean_sigma.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chat_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chat_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="chat_message.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
