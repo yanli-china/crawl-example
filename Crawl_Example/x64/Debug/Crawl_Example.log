@@ -1,1 +1,54 @@
-﻿  Crawl_Example.vcxproj -> C:\Users\1000260871\Desktop\Crawl_Example\x64\Debug\Crawl_Example.exe
+﻿  boost_test.cpp
+C:\Users\1000260871\Desktop\Crawl_Example\Crawl_Example\boost_test.cpp(10,5): error C2143: syntax error: missing ';' before 'return'
+C:\Users\1000260871\Desktop\Crawl_Example\Crawl_Example\boost_test.cpp(8,9): error C2440: 'return': cannot convert from 'const char [5]' to 'boost::optional<int>'
+      C:\Users\1000260871\Desktop\Crawl_Example\Crawl_Example\boost_test.cpp(8,9):
+      'boost::optional<int>::optional': no overloaded function could convert all the argument types
+          C:\local\boost_1_81_0\boost\optional\optional.hpp(1034,5):
+          could be 'boost::optional<int>::optional(boost::optional<int> &&)'
+              C:\Users\1000260871\Desktop\Crawl_Example\Crawl_Example\boost_test.cpp(8,9):
+              'boost::optional<int>::optional(boost::optional<int> &&)': cannot convert argument 1 from 'const char [5]' to 'boost::optional<int> &&'
+                  C:\Users\1000260871\Desktop\Crawl_Example\Crawl_Example\boost_test.cpp(8,16):
+                  Reason: cannot convert from 'const char [5]' to 'boost::optional<int>'
+                  C:\Users\1000260871\Desktop\Crawl_Example\Crawl_Example\boost_test.cpp(8,16):
+                  Conversion requires a second user-defined-conversion operator or constructor
+          C:\local\boost_1_81_0\boost\optional\optional.hpp(1024,5):
+          or       'boost::optional<int>::optional(const boost::optional<int> &)'
+              C:\Users\1000260871\Desktop\Crawl_Example\Crawl_Example\boost_test.cpp(8,9):
+              'boost::optional<int>::optional(const boost::optional<int> &)': cannot convert argument 1 from 'const char [5]' to 'const boost::optional<int> &'
+                  C:\Users\1000260871\Desktop\Crawl_Example\Crawl_Example\boost_test.cpp(8,16):
+                  Reason: cannot convert from 'const char [5]' to 'const boost::optional<int>'
+                  C:\Users\1000260871\Desktop\Crawl_Example\Crawl_Example\boost_test.cpp(8,16):
+                  Conversion requires a second user-defined-conversion operator or constructor
+          C:\local\boost_1_81_0\boost\optional\optional.hpp(944,5):
+          or       'boost::optional<int>::optional(int &&)'
+              C:\Users\1000260871\Desktop\Crawl_Example\Crawl_Example\boost_test.cpp(8,9):
+              'boost::optional<int>::optional(int &&)': cannot convert argument 1 from 'const char [5]' to 'int &&'
+                  C:\Users\1000260871\Desktop\Crawl_Example\Crawl_Example\boost_test.cpp(8,16):
+                  Reason: cannot convert from 'const char [5]' to 'T'
+          with
+          [
+              T=int
+          ]
+                  C:\Users\1000260871\Desktop\Crawl_Example\Crawl_Example\boost_test.cpp(8,16):
+                  There is no context in which this conversion is possible
+          C:\local\boost_1_81_0\boost\optional\optional.hpp(939,5):
+          or       'boost::optional<int>::optional(const int &)'
+              C:\Users\1000260871\Desktop\Crawl_Example\Crawl_Example\boost_test.cpp(8,9):
+              'boost::optional<int>::optional(const int &)': cannot convert argument 1 from 'const char [5]' to 'const int &'
+                  C:\Users\1000260871\Desktop\Crawl_Example\Crawl_Example\boost_test.cpp(8,16):
+                  Reason: cannot convert from 'const char [5]' to 'const T'
+          with
+          [
+              T=int
+          ]
+                  C:\Users\1000260871\Desktop\Crawl_Example\Crawl_Example\boost_test.cpp(8,16):
+                  There is no context in which this conversion is possible
+          C:\local\boost_1_81_0\boost\optional\optional.hpp(935,5):
+          or       'boost::optional<int>::optional(boost::none_t) noexcept'
+              C:\Users\1000260871\Desktop\Crawl_Example\Crawl_Example\boost_test.cpp(8,9):
+              'boost::optional<int>::optional(boost::none_t) noexcept': cannot convert argument 1 from 'const char [5]' to 'boost::none_t'
+                  C:\Users\1000260871\Desktop\Crawl_Example\Crawl_Example\boost_test.cpp(8,16):
+                  Conversion requires a second user-defined-conversion operator or constructor
+          C:\Users\1000260871\Desktop\Crawl_Example\Crawl_Example\boost_test.cpp(8,9):
+          while trying to match the argument list '(const char [5])'
+  

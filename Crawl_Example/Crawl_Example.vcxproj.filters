@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Game_Pattern">
+      <UniqueIdentifier>{a7598c54-2ceb-4784-b287-f44dfa287437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Simple System">
+      <UniqueIdentifier>{36a8aa6f-ac0c-4ec0-b50f-db1ec88b6e58}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="extract_link.cpp">
@@ -42,10 +48,40 @@
     <ClCompile Include="chat_client.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Mediator_Pub_Sub_Usage.cpp">
+      <Filter>Source Files\Game_Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediator_Usage.cpp">
+      <Filter>Source Files\Game_Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="EventBus_Usage.cpp">
+      <Filter>Source Files\Game_Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="payroll.cpp">
+      <Filter>Source Files\Simple System</Filter>
+    </ClCompile>
+    <ClCompile Include="auth_system.cpp">
+      <Filter>Source Files\Simple System</Filter>
+    </ClCompile>
+    <ClCompile Include="pet.cpp">
+      <Filter>Source Files\Simple System</Filter>
+    </ClCompile>
+    <ClCompile Include="ma_example.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="workflow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="boost_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chat_message.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
